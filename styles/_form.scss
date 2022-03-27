@@ -14,22 +14,13 @@
   }
 
   button {
-    opacity: 1;
     background-image: linear-gradient($gradient2);
     border-radius: 40px;
-    border: 1px solid $Desaturated-Red;
     padding: 11px 12px 8px 35px;
     box-shadow: 5px 5px 20px $Desaturated-Red;
-
-
     position: absolute;
-    top: 0;
-    right: 0px;
-    z-index: 2;
-    border: 1px solid $Desaturated-Red;
-    top: 1px;
-    transform: translateX(-30px);
-    
+    right: 30px;
+    top: 0px;
 
     img {
       position: relative;
