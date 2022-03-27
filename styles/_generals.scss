@@ -5,5 +5,14 @@
 }
 
 .hero-image {
-  width: 100%;
+  max-width: 500px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+
 }
