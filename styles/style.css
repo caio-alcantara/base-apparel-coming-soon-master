@@ -6,7 +6,7 @@
 }
 
 .hero-image {
-  max-width: 500px;
+  width: 100%;
 }
 
 main {
@@ -54,6 +54,7 @@ header img {
 }
 
 .input {
+  position: relative;
   text-align: center;
   padding: 0 30px 80px 30px;
   display: -webkit-box;
@@ -73,7 +74,6 @@ header img {
   border-radius: 40px;
   width: 100%;
   border: 1px solid #ce9797;
-  position: relative;
 }
 
 .input button {
@@ -85,12 +85,18 @@ header img {
   -webkit-box-shadow: 5px 5px 20px #ce9797;
           box-shadow: 5px 5px 20px #ce9797;
   position: absolute;
-  left: 76%;
+  top: 0;
+  right: 0px;
+  z-index: 2;
+  border: 1px solid #ce9797;
+  top: 1px;
+  -webkit-transform: translateX(-30px);
+          transform: translateX(-30px);
 }
 
 .input button img {
   position: relative;
-  right: 60%;
+  right: 80%;
   top: 50%;
 }
 
@@ -108,5 +114,11 @@ header img {
 
 .input ::placeholder {
   color: #ce9797;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-image {
+    max-width: 800px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

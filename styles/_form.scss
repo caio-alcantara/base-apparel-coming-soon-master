@@ -1,4 +1,5 @@
 .input {
+  position: relative;
   text-align: center;
   padding: 0 30px 80px 30px;
   display: flex;
@@ -11,7 +12,6 @@
     border-radius: 40px;
     width: 100%;
     border: 1px solid $Desaturated-Red;
-    position: relative;
   }
 
   button {
@@ -21,12 +21,20 @@
     border: 1px solid $Desaturated-Red;
     padding: 11px 12px 8px 35px;
     box-shadow: 5px 5px 20px $Desaturated-Red;
+
+
     position: absolute;
-    left: 76%;
+    top: 0;
+    right: 0px;
+    z-index: 2;
+    border: 1px solid $Desaturated-Red;
+    top: 1px;
+    transform: translateX(-30px);
+    
 
     img {
       position: relative;
-      right: 60%;
+      right: 80%;
       top: 50%;
     }
   }
