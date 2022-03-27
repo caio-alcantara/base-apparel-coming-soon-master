@@ -25,7 +25,7 @@ button.addEventListener("click", function (event) {
 
   if (validateEmail() == true) {
     let email = document.querySelector("#email").style = 'border: 1px solid green;'
-
+    let errorIcon = document.querySelector('.error').style = 'display: none;'
     let errorMessage = document.querySelector('.error-message')
     errorMessage.style = 'display: block; color: green; padding-left: -20px;'
     errorMessage.textContent = 'Email sent sucessfuly!'
