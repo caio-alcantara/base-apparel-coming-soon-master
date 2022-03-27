@@ -70,6 +70,21 @@ header img {
   border: 1px solid #ce9797;
 }
 
+.input .error {
+  position: absolute;
+  right: 100px;
+  top: 10px;
+  display: none;
+}
+
+.input .error-message {
+  color: #f96262;
+  padding-top: 10px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  display: none;
+}
+
 .input button {
   background-image: linear-gradient(135deg, #f8bfbf, #ee8c8c);
   border-radius: 40px;
@@ -187,6 +202,9 @@ header img {
   }
   main section .input input {
     width: 430px;
+  }
+  main section .input .error {
+    right: -70px;
   }
   main section .input button {
     -webkit-transform: translateX(190px);
