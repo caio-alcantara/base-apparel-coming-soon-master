@@ -19,7 +19,7 @@ header img {
 
 .text {
   font-family: "Josefin Sans", sans-serif;
-  padding: 50px 30px 30px 30px;
+  padding: 50px 30px 20px 30px;
 }
 
 .text h1 {
@@ -39,5 +39,42 @@ header img {
   font-size: 14px;
   padding-top: 20px;
   line-height: 22px;
+}
+
+.input {
+  text-align: center;
+  padding: 0 30px 80px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.input input {
+  padding: 14px 25px;
+  border-radius: 40px;
+  width: 100%;
+  border: 1px solid black;
+  position: relative;
+}
+
+.input button {
+  background-color: black;
+  border-radius: 40px;
+  border: 1px solid black;
+  padding: 11px 12px 8px 35px;
+  position: absolute;
+  left: 76%;
+}
+
+.input button img {
+  position: relative;
+  right: 60%;
+  top: 50%;
 }
 /*# sourceMappingURL=style.css.map */
