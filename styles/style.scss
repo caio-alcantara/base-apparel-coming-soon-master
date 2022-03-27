@@ -1,4 +1,4 @@
-// Variables 
+// Variables
 
 /// Colors
 $Desaturated-Red: hsl(0, 36%, 70%);
@@ -10,7 +10,8 @@ $gradient1: Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%);
 $gradient2: Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%);
 
 /// Typography
-$main-font: 'Josefin Sans', sans-serif;
+$main-font: "Josefin Sans", sans-serif;
 
 // Imports
 @import "generals";
+@import "header";
