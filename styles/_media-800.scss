@@ -7,6 +7,10 @@
 }
 
 @media screen and (min-width: 900px) {
+  body {
+    background-image: url(../images/bg-pattern-desktop.svg);
+  }
+
   main {
     flex-direction: row;
     width: 100%;
@@ -33,7 +37,7 @@
       
       img {
         margin-top: -75px;
-        max-height: 115%;
+        max-height: 660px;
 
         max-width: 50%;
         position: absolute;

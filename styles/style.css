@@ -58,15 +58,6 @@ header img {
   position: relative;
   text-align: center;
   padding: 0 30px 80px 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   max-width: 680px;
   margin: 0 auto;
 }
@@ -132,6 +123,9 @@ header img {
 }
 
 @media screen and (min-width: 900px) {
+  body {
+    background-image: url(../images/bg-pattern-desktop.svg);
+  }
   main {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -162,7 +156,7 @@ header img {
   }
   main .img img {
     margin-top: -75px;
-    max-height: 115%;
+    max-height: 660px;
     max-width: 50%;
     position: absolute;
     left: 50%;
@@ -174,6 +168,40 @@ header img {
   }
   main header img {
     padding-left: 50px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  header {
+    padding: 40px 30px 30px 182px;
+  }
+  header img {
+    width: 150px;
+  }
+  main .img img {
+    max-width: 42%;
+    left: 58%;
+  }
+  main section {
+    padding: 30px 0 30px 150px;
+  }
+  main section .text h1 {
+    font-size: 5em;
+  }
+  main section .text p {
+    font-size: 16px;
+    width: 430px;
+  }
+  main section .input input {
+    width: 430px;
+  }
+  main section .input button {
+    -webkit-transform: translateX(160px);
+            transform: translateX(160px);
+    padding: 11px 25px 8px 35px;
+  }
+  main section .input button img {
+    right: 15%;
   }
 }
 /*# sourceMappingURL=style.css.map */
