@@ -8,4 +8,35 @@
 .hero-image {
   width: 100%;
 }
+
+header {
+  padding: 30px;
+}
+
+header img {
+  width: 100px;
+}
+
+.text {
+  font-family: "Josefin Sans", sans-serif;
+  padding: 50px 30px 30px 30px;
+}
+
+.text h1 {
+  text-align: center;
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 8px;
+}
+
+.text h1 span {
+  font-weight: 300;
+}
+
+.text p {
+  text-align: center;
+  font-size: 14px;
+  padding-top: 20px;
+}
 /*# sourceMappingURL=style.css.map */
