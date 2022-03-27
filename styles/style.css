@@ -21,6 +21,7 @@ main {
 
 header {
   padding: 30px;
+  max-height: 75px;
 }
 
 header img {
@@ -66,6 +67,8 @@ header img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  max-width: 680px;
+  margin: 0 auto;
 }
 
 .input input {
@@ -119,6 +122,31 @@ header img {
 @media screen and (min-width: 768px) {
   .hero-image {
     max-width: 800px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  main {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  main section {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    justify-self: flex-start;
+  }
+  main .img {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  main header {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
   }
 }
 /*# sourceMappingURL=style.css.map */

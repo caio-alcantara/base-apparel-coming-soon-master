@@ -1,0 +1,17 @@
+@media screen and (min-width: 800px) {
+  main {
+    flex-direction: row;
+
+
+    section {
+      order: 1;
+      justify-self: flex-start;
+    }
+    .img {
+      order: 2;
+    }
+    header {
+      order: 1;
+    }
+  }
+}
